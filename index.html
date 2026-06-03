@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fully Booked Practice | Coaching with Tiffany Mulroy</title>
+<meta name="description" content="Business coaching for aesthetic practitioners who want to fill their calendar and charge premium prices, from a clinic owner of 30 years. Apply for the next intake.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Fully Booked Practice | Coaching with Tiffany Mulroy">
+<meta property="og:description" content="You can inject beautifully. That is not the same as a booked-out practice. Learn the business behind the treatments from a 30-year clinic owner.">
+<meta property="og:url" content="https://andrei170.github.io/aesthetic-coach-landing/">
+<meta property="og:image" content="https://andrei170.github.io/aesthetic-coach-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Fully Booked Practice | Coaching with Tiffany Mulroy">
+<meta name="twitter:description" content="The business behind the treatments, from a 30-year aesthetics clinic owner.">
+<meta name="twitter:image" content="https://andrei170.github.io/aesthetic-coach-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;&#x2728;&lt;/text&gt;&lt;/svg&gt;">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --char:#2b2521;
+    --char-deep:#1d1916;
+    --bone:#faf6f1;
+    --paper:#fffdfb;
+    --ink:#332c27;
+    --muted:#857a70;
+    --line:#ece3d8;
+    --rose:#c08a7d;
+    --rose-soft:#d8a99c;
+    --gold:#bda06f;
+    --stone:#a89c8e;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Jost',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bone);line-height:1.75;font-size:17px;font-weight:300;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;line-height:1.16;color:var(--char);letter-spacing:.005em;}
+  h1{font-size:3.4rem;}
+  h2{font-size:2.5rem;}
+  h3{font-size:1.5rem;}
+  p{margin-bottom:1rem;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  section{padding:84px 0;}
+
+  .btn{display:inline-block;background:var(--char);color:var(--bone);font-family:'Jost',sans-serif;font-weight:500;font-size:.9rem;letter-spacing:.13em;text-transform:uppercase;padding:17px 38px;border-radius:2px;border:none;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease, background .2s ease;}
+  .btn:hover{background:var(--rose);color:#fff;transform:translateY(-2px);box-shadow:0 14px 34px rgba(192,138,125,.32);}
+  .btn-sm{padding:12px 24px;font-size:.76rem;}
+  .btn-rose{background:linear-gradient(135deg,var(--rose),var(--rose-soft));color:#fff;}
+  .btn-rose:hover{filter:brightness(1.05);background:linear-gradient(135deg,var(--rose),var(--rose-soft));color:#fff;}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(250,246,241,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px;}
+  .wordmark{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.6rem;color:var(--char);letter-spacing:.1em;text-transform:uppercase;}
+  .wordmark small{display:block;font-family:'Jost',sans-serif;font-size:.54rem;letter-spacing:.38em;color:var(--stone);text-transform:uppercase;margin-top:-3px;}
+
+  .hero{background:linear-gradient(180deg,var(--bone) 0%, var(--paper) 100%);padding:104px 0 92px;text-align:center;border-bottom:1px solid var(--line);position:relative;overflow:hidden;}
+  .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at top, rgba(192,138,125,.08), transparent 62%);pointer-events:none;}
+  .hero .wrap{position:relative;z-index:1;}
+  .hero .kicker{font-family:'Jost',sans-serif;text-transform:uppercase;letter-spacing:.3em;font-size:.74rem;font-weight:500;color:var(--rose);margin-bottom:26px;}
+  .hero h1{max-width:17ch;margin:0 auto;font-size:3.7rem;}
+  .hero h1 .it{font-style:italic;color:var(--rose);}
+  .hero-rule{width:64px;height:2px;background:var(--rose);margin:28px auto 24px;}
+  .hero-sub{font-size:1.22rem;color:var(--muted);max-width:54ch;margin:6px auto 34px;font-weight:300;}
+  .trust-line{margin-top:26px;font-size:.92rem;color:var(--char);letter-spacing:.02em;}
+
+  .cred{background:var(--char);color:#e7ddd2;padding:28px 0;}
+  .cred-label{text-align:center;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:var(--stone);margin-bottom:16px;}
+  .cred-grid{display:flex;flex-wrap:wrap;gap:12px 30px;justify-content:center;align-items:center;}
+  .cred-grid span{font-family:'Cormorant Garamond',serif;font-size:1.18rem;color:#f0e7da;letter-spacing:.03em;}
+  .cred-grid .dot{color:var(--rose-soft);}
+
+  .lead{font-size:1.2rem;color:var(--muted);max-width:60ch;font-weight:300;}
+  .pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:38px;}
+  .pain{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--rose);padding:22px 24px;color:var(--ink);font-size:1.02rem;}
+
+  .alt{background:var(--paper);}
+  .mod-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:44px;}
+  .mod{background:var(--bone);border:1px solid var(--line);border-radius:4px;padding:32px 30px;transition:transform .2s ease, box-shadow .2s ease;}
+  .mod:hover{transform:translateY(-3px);box-shadow:0 20px 44px rgba(43,37,33,.1);}
+  .mod .mn{font-family:'Cormorant Garamond',serif;font-size:1rem;letter-spacing:.28em;color:var(--rose);text-transform:uppercase;margin-bottom:12px;}
+  .mod h3{font-size:1.55rem;margin-bottom:8px;}
+  .mod p{margin:0;color:var(--muted);font-size:1rem;}
+
+  .ladder{display:grid;grid-template-columns:1fr;gap:18px;max-width:900px;margin:44px auto 0;}
+  .rung{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:32px 32px;display:grid;grid-template-columns:74px 1fr auto;gap:24px;align-items:start;transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;}
+  .alt .rung{background:var(--bone);}
+  .rung:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(43,37,33,.1);border-color:var(--rose);}
+  .rung-num{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:2.6rem;color:var(--rose);line-height:1;}
+  .rung h3{font-size:1.4rem;margin-bottom:6px;}
+  .rung .band{display:inline-block;font-family:'Jost',sans-serif;font-size:.66rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);background:rgba(192,138,125,.1);padding:5px 13px;border-radius:30px;margin-bottom:12px;}
+  .rung p{margin:0;color:var(--muted);font-size:.98rem;}
+  .rung-cta{align-self:center;}
+
+  .coach{background:var(--char);color:#e7ddd2;}
+  .coach h2{color:#fff;}
+  .coach .eyebrow{color:var(--rose-soft);}
+  .coach p{color:#d6cabd;font-size:1.12rem;font-weight:300;}
+  .coach-inner{display:grid;grid-template-columns:200px 1fr;gap:46px;align-items:center;max-width:920px;margin:0 auto;}
+  .coach-badge{width:200px;height:200px;border-radius:50%;background:linear-gradient(150deg,var(--rose),var(--char-deep));display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 24px 60px rgba(0,0,0,.4);border:1px solid rgba(216,169,156,.3);}
+  .coach-badge .mono{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:3.4rem;color:#fff;line-height:1;}
+  .coach-badge .role{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:#e7c9bf;margin-top:10px;}
+
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:46px;}
+  .step{background:var(--bone);border:1px solid var(--line);border-radius:6px;padding:32px 28px;}
+  .alt .step{background:var(--paper);}
+  .step-num{font-family:'Cormorant Garamond',serif;width:50px;height:50px;border-radius:50%;background:var(--char);color:var(--bone);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:1.3rem;margin-bottom:18px;}
+  .step h3{font-size:1.3rem;margin-bottom:6px;}
+  .step p{margin:0;color:var(--muted);font-size:.97rem;}
+
+  .apply{background:var(--char-deep);color:#e7ddd2;}
+  .apply h2{color:#fff;}
+  .apply .eyebrow{color:var(--rose-soft);}
+  .apply .lead{color:#d6cabd;}
+  .form-card{max-width:620px;margin:34px auto 0;background:rgba(255,255,255,.04);border:1px solid rgba(216,169,156,.26);border-radius:10px;padding:44px 38px;text-align:center;box-shadow:0 30px 70px rgba(0,0,0,.4);}
+  .form-card h3{color:#fff;font-size:1.9rem;margin-bottom:8px;}
+  .form-card p{color:#cabeb1;margin-bottom:24px;}
+  .form-row{display:flex;flex-direction:column;gap:12px;max-width:420px;margin:0 auto;}
+  .form-row input{padding:15px 18px;border-radius:3px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);color:#fff;font-family:'Jost',sans-serif;font-size:1rem;}
+  .form-row input::placeholder{color:#988c7e;}
+  .form-row input:focus{outline:none;border-color:var(--rose-soft);}
+  .form-note{font-size:.82rem;color:#988c7e;margin-top:16px;}
+
+  .faq{max-width:800px;margin:36px auto 0;}
+  .q{border:1px solid var(--line);border-radius:6px;margin-bottom:12px;background:var(--paper);overflow:hidden;}
+  .alt .q{background:var(--bone);}
+  .q-head{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:22px 26px;font-weight:500;font-size:1.18rem;color:var(--char);display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'Cormorant Garamond',serif;}
+  .q-icon{flex-shrink:0;font-size:1.5rem;color:var(--rose);transition:transform .25s ease;}
+  .q.open .q-icon{transform:rotate(45deg);}
+  .q-body{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--muted);}
+  .q-body p{padding:0 26px 22px;margin:0;}
+
+  .disclaimer{background:var(--bone);padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .disclaimer p{margin:0 auto;max-width:780px;font-size:.84rem;color:var(--muted);text-align:center;font-style:italic;}
+
+  footer{background:var(--char);color:#b3a698;padding:50px 0;}
+  .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px;}
+  .foot-nav{display:flex;gap:26px;flex-wrap:wrap;}
+  .foot-nav a{color:#b3a698;font-size:.92rem;transition:color .2s ease;}
+  .foot-nav a:hover{color:#fff;}
+  .copy{font-size:.84rem;color:#857a6d;margin-top:8px;width:100%;}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease, transform .65s ease;}
+  .reveal.show{opacity:1;transform:none;}
+  .eyebrow{text-transform:uppercase;letter-spacing:.26em;font-weight:500;font-size:.74rem;color:var(--rose);margin-bottom:14px;font-family:'Jost',sans-serif;}
+  .center{text-align:center;}
+
+  @media(max-width:860px){
+    h1{font-size:2.3rem;}.hero h1{font-size:2.4rem;}h2{font-size:1.9rem;}
+    .steps{grid-template-columns:1fr;}
+    .pain-grid{grid-template-columns:1fr;}
+    .mod-grid{grid-template-columns:1fr;}
+    .rung{grid-template-columns:1fr;gap:14px;text-align:center;padding:28px 24px;}
+    .rung-cta{justify-self:center;}
+    .coach-inner{grid-template-columns:1fr;gap:26px;justify-items:center;text-align:center;}
+    section{padding:58px 0;}
+    .nav-inner{height:64px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="wrap nav-inner">
+    <div class="wordmark">Tiffany Mulroy<small>The Fully Booked Practice</small></div>
+    <a href="#apply" class="btn btn-sm">Apply</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker reveal">For qualified aesthetic practitioners</p>
+    <h1 class="reveal">You can inject beautifully. <span class="it">Now get booked out.</span></h1>
+    <div class="hero-rule reveal"></div>
+    <p class="hero-sub reveal">The Fully Booked Practice is business coaching for aesthetic practitioners who want a full calendar and premium prices, taught by a clinic owner of 30 years. The business behind the treatments, not more technique.</p>
+    <a href="#apply" class="btn btn-rose reveal">Apply for the next intake</a>
+    <p class="trust-line reveal">With Tiffany Mulroy &middot; Clinic owner and trainer for 30 years &middot; Dublin, Ireland</p>
+  </div>
+</header>
+
+<!-- CREDIBILITY BAR -->
+<div class="cred">
+  <div class="wrap">
+    <div class="cred-label">Taught by</div>
+    <div class="cred-grid">
+      <span>30 Years in Aesthetics</span><span class="dot">&bull;</span>
+      <span>Clinic Owner</span><span class="dot">&bull;</span>
+      <span>CPD-Accredited Trainer</span><span class="dot">&bull;</span>
+      <span>Level 7 Injector</span><span class="dot">&bull;</span>
+      <span>Qualified Tutor</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">The honest part</p>
+    <h2 class="reveal">Being qualified is not the same as being booked.</h2>
+    <p class="lead reveal">You spent thousands learning to do the treatments, and not a penny on the business behind them. So the skill is there, but the calendar is half empty, the prices feel stuck, and the next client is always a question mark. That gap, between qualified and fully booked, is where most practitioners get trapped. It is not your hands. It is the business.</p>
+    <div class="pain-grid">
+      <div class="pain reveal">Your calendar is unpredictable: busy one week, quiet the next, never steady.</div>
+      <div class="pain reveal">You undercharge because someone local is always cheaper and you are scared to lose the booking.</div>
+      <div class="pain reveal">Clients come from luck and word of mouth, with no system bringing them in.</div>
+      <div class="pain reveal">You post on Instagram constantly and it does not turn into bookings.</div>
+      <div class="pain reveal">You watch other injectors get booked out and cannot see what they do differently.</div>
+      <div class="pain reveal">You are brilliant in the treatment room and lost the moment it becomes a business.</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU LEARN -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow reveal center">What you learn</p>
+    <h2 class="reveal center">The business behind the treatments</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">Not more technique. The system that turns a qualified practitioner into a booked-out one, drawn from 30 years of running a clinic.</p>
+    <div class="mod-grid">
+      <div class="mod reveal"><div class="mn">One</div><h3>Position</h3><p>Give clients a reason to choose you that has nothing to do with being the cheapest. Stop competing on price.</p></div>
+      <div class="mod reveal"><div class="mn">Two</div><h3>Price &amp; Package</h3><p>Price and package your treatments for profit, so every client is worth more and your margin finally makes sense.</p></div>
+      <div class="mod reveal"><div class="mn">Three</div><h3>Fill the Calendar</h3><p>A simple, repeatable way to bring clients in, so the diary is full by design, not by luck or constant posting.</p></div>
+      <div class="mod reveal"><div class="mn">Four</div><h3>Convert Consultations</h3><p>Turn the enquiries and consultations you already get into booked, paying clients without feeling pushy.</p></div>
+      <div class="mod reveal"><div class="mn">Five</div><h3>Retain &amp; Rebook</h3><p>Keep clients coming back on a schedule, so revenue is steady instead of starting from zero each month.</p></div>
+      <div class="mod reveal"><div class="mn">Six</div><h3>Your Practice Plan</h3><p>Put it together into a plan for your practice you can actually run, not a folder of disconnected advice.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COACH -->
+<section class="coach">
+  <div class="wrap">
+    <div class="coach-inner">
+      <div class="coach-badge reveal">
+        <div class="mono">TM</div>
+        <div class="role">Tiffany Mulroy</div>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Your coach</p>
+        <h2>Built one. Not just taught it.</h2>
+        <p>I am Tiffany Mulroy. I have been in aesthetics for 30 years, certified since 1990, and I built and still run my own clinic and training academy in Dublin. I am not a marketer who picked this niche. I am a practitioner who learned the business the hard way and now teaches it.</p>
+        <p>My whole mission is simple: to share what 30 years taught me so other qualified practitioners can increase their income and build a practice they are proud of.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LADDER -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal center">Three ways in</p>
+    <h2 class="reveal center">Start where you are</h2>
+    <div class="ladder">
+      <div class="rung reveal">
+        <div class="rung-num">01</div>
+        <div>
+          <span class="band">Free</span>
+          <h3>The Fully Booked Clinic Guide</h3>
+          <p>A free guide on filling your calendar and charging premium prices. The fastest way to see the approach before you apply.</p>
+        </div>
+        <a href="#apply" class="btn btn-sm rung-cta">Get the Guide</a>
+      </div>
+      <div class="rung reveal">
+        <div class="rung-num">02</div>
+        <div>
+          <span class="band">Next intake &middot; limited places</span>
+          <h3>The Fully Booked Practice</h3>
+          <p>The full coaching program for practitioners ready to fill the calendar and raise their prices. Limited places per intake so the support is real. Application based.</p>
+        </div>
+        <a href="#apply" class="btn btn-sm rung-cta">Apply</a>
+      </div>
+      <div class="rung reveal">
+        <div class="rung-num">03</div>
+        <div>
+          <span class="band">One to one &middot; by application</span>
+          <h3>Private Coaching Day with Tiffany</h3>
+          <p>A focused one to one day on your practice: pricing, positioning, and the one bottleneck holding your bookings back. Premium, by application.</p>
+        </div>
+        <a href="#apply" class="btn btn-sm rung-cta">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow reveal center">How it works</p>
+    <h2 class="reveal center">From qualified to fully booked</h2>
+    <div class="steps">
+      <div class="step reveal"><div class="step-num">1</div><h3>Get the guide</h3><p>Download the Fully Booked Clinic Guide and see the approach. Add your name for the next intake.</p></div>
+      <div class="step reveal"><div class="step-num">2</div><h3>Apply</h3><p>Tell Tiffany about your practice: where you are, what you offer, and the bottleneck holding you back.</p></div>
+      <div class="step reveal"><div class="step-num">3</div><h3>Fill your calendar</h3><p>Work the system with Tiffany behind you, and build a practice that stays booked.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLY -->
+<section class="apply" id="apply">
+  <div class="wrap">
+    <p class="eyebrow reveal center">Next intake</p>
+    <h2 class="reveal center">Apply for coaching</h2>
+    <p class="lead reveal center" style="margin:14px auto 0;">Places are limited so the support stays personal. Add your details for first access and the free guide today.</p>
+    <div class="form-card reveal">
+      <h3>Apply / get the guide</h3>
+      <p>First access to the next intake. The Fully Booked Clinic Guide, sent today.</p>
+      <form class="form-row" onsubmit="event.preventDefault();this.innerHTML='<p style=\'color:#fff;margin:0;\'>You are on the list. Check your inbox for the guide.</p>';">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit" class="btn btn-rose" style="width:100%;">Apply for the next intake</button>
+      </form>
+      <p class="form-note">No spam. First access and the guide, nothing else.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal center">Straight answers</p>
+    <h2 class="reveal center">Before you apply</h2>
+    <div class="faq">
+      <div class="q"><button class="q-head">Is this more treatment training?<span class="q-icon">+</span></button><div class="q-body"><p>No. This is the business behind the treatments: positioning, pricing, filling your calendar, and converting consultations. If you want hands-on technique training, that is the Academy. This is about getting booked and paid properly.</p></div></div>
+      <div class="q"><button class="q-head">I already trained with you. Is this different?<span class="q-icon">+</span></button><div class="q-body"><p>Completely. The courses make you skilled. This makes you booked. They stack: many practitioners do the training, then realise the missing piece is the business, which is exactly what coaching is for.</p></div></div>
+      <div class="q"><button class="q-head">Who is it for?<span class="q-icon">+</span></button><div class="q-body"><p>Qualified aesthetic practitioners: injectors, nurses, doctors, paramedics, and Level 3 and above aestheticians who can do the work but want a fuller calendar and higher prices.</p></div></div>
+      <div class="q"><button class="q-head">What does it cost?<span class="q-icon">+</span></button><div class="q-body"><p>The program is premium and places are limited per intake. We share the details with people who apply. The guide and the waitlist are free.</p></div></div>
+      <div class="q"><button class="q-head">When does the next intake open?<span class="q-icon">+</span></button><div class="q-body"><p>Soon, with limited places. Apply now for first access before places are public.</p></div></div>
+      <div class="q"><button class="q-head">Are results guaranteed?<span class="q-icon">+</span></button><div class="q-body"><p>No. This is coaching, not a guarantee. The system is the one Tiffany has used to build and run her own clinic for 30 years, but your results depend on your market, your effort, and how you apply it.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="alt center">
+  <div class="wrap">
+    <h2 class="reveal">Skilled is the start. Booked out is the goal.</h2>
+    <p class="lead reveal center" style="margin:14px auto 28px;">Apply for the next intake and get the Fully Booked Clinic Guide today.</p>
+    <a href="#apply" class="btn btn-rose reveal">Apply for the next intake</a>
+  </div>
+</section>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+  <div class="wrap">
+    <p>The Fully Booked Practice is a business coaching program for qualified aesthetic practitioners. It is education and coaching, not medical or financial advice, and not a guarantee of income or bookings. Individual results depend on your market, your practice, and your execution.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot-inner">
+    <div class="wordmark" style="color:#fff;">Tiffany Mulroy<small style="color:var(--stone);">The Fully Booked Practice</small></div>
+    <div class="foot-nav">
+      <a href="https://www.aestheticcoach.online" target="_blank" rel="noopener">aestheticcoach.online</a>
+      <a href="https://www.instagram.com/aestheticcoach/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#apply">Apply</a>
+    </div>
+    <div class="copy">&copy; 2026 The Aesthetic Coach. The Fully Booked Practice is a coaching program by Tiffany Mulroy. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  document.querySelectorAll('.q-head').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var q = btn.parentElement;
+      var body = q.querySelector('.q-body');
+      var isOpen = q.classList.contains('open');
+      document.querySelectorAll('.q').forEach(function(other){
+        other.classList.remove('open');
+        other.querySelector('.q-body').style.maxHeight = null;
+      });
+      if(!isOpen){ q.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+</script>
+</body>
+</html>
